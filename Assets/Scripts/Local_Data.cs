@@ -198,9 +198,9 @@ public class Local_Data : MonoBehaviour
 
         else
         {
-            FolderName = "/DotNotes/";
+            FolderName = "/Jsons/";
             ExtensionName= "json";
-            FileName = "Notes";
+            FileName = "DataBase";
             FinalFileName = $"{FileName}.{ExtensionName}";
             FolderPath = Application.dataPath + FolderName;
             FilePath = FolderPath + FinalFileName;
